@@ -4,6 +4,7 @@ dist: trusty
 addons:
     apt:
         sources:
+            - ubuntu-toolchain-r-test
             - llvm-toolchain-trusty-6.0
         packages:
             - clang-6.0
