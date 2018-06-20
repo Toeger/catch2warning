@@ -8,6 +8,7 @@ addons:
             - llvm-toolchain-trusty-6.0
         packages:
             - clang-6.0
+            - libstdc++-8-dev
 
 before_script:
     - clang++-6.0 --version
